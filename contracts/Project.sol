@@ -8,6 +8,7 @@ contract IdentityRegistry {
     constructor() {
         owner = msg.sender;
     }
+    //modifier onlyOwner feature added...
 
     modifier onlyOwner() {
         require(msg.sender == owner, "Not authorized");
