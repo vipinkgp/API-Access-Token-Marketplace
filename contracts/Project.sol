@@ -19,6 +19,14 @@ contract IdentityRegistry {
         isVerified[user] = true;
     }
 
+    function verifyidentity(address user) public view returns (bool) {
+        return isVerified[user];
+    }
+
+    function registerIdentity(address user) public onlyOwner {
+        isVerified[user] = true;
+    }
+
     function verify(address user) public view returns (bool) {
         return isVerified[user];
     }
@@ -34,5 +42,6 @@ contract IdentityRegistry {
         isVerified[user] = true;
     }
 }
+
 
 
