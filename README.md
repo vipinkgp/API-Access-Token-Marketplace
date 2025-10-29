@@ -73,17 +73,7 @@ API-Access-Token-Marketplace/
 ├── package.json
 └── README.md
 
-🧾 Example Token Flow
 
-A developer registers and logs in
-
-They list an API token for sale or browse existing ones
-
-Another user purchases a token via Stripe
-
-The token can be used for authenticated API calls
-
-Usage data and rate limits are tracked automatically
 
 🔒 Security & Best Practices
 
