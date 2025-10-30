@@ -75,7 +75,7 @@ API-Access-Token-Marketplace/
 
 
 
-🔒 Security & Best Practices
+
 
 Use HTTPS for all API requests
 
